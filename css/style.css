@@ -72,6 +72,8 @@ body{
   margin-right: 50px;
 }
 .link {
+  font-family: var(--roboto-font-family);
+  color: var(--black-color);
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
