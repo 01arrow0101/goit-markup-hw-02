@@ -135,6 +135,10 @@
   color: var(--white-color);
   margin-top: 30px;
 }
+.orderBtn:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
 .service {
   width: 1170px;
   padding-left: 215px;
