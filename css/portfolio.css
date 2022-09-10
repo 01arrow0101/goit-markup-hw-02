@@ -1,5 +1,21 @@
-
                         /* PORTFOLIO */
+                        :root {
+                          --black-color: #212121;
+                          --blue-color: #2196f3;
+                          --grey-color: #757575;
+                          --white-color: #fff;
+                          --borderBtn-border: 1px solid #EEEEEE;
+                          --borderCart-border: 1px solid #EEEEEE;
+                          --bodyBg-background-color:#ffffff;
+                          --btn-background-color: #2196f3;
+                          --btnActive-background-color :#188CE8;
+                          --raleway-font-family: "Raleway";
+                          --roboto-font-family: "Roboto";
+                          --activeLink-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+                          --btn-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+                          --btnActive-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+                          
+                          }                        
 .projects {
   width: 1600px;
 padding-top: 94px;
@@ -19,46 +35,43 @@ padding-bottom: 94px;
   color: var(--black-color);
 font-weight: 500;
 font-size: 16px;
-line-height: 26px;
+line-height: 1.6em;
 text-align: center;
 letter-spacing: 0.03em;
 border-radius: 4px;
-border: none;
+border: solid 1px #EEEEEE;
 padding: 6px 25px;
 }
 .btnActive{
   cursor: pointer;
  color: var(--white-color);
   background-color: var(--blue-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--btn-box-shadow);
 }
-.btn:hover{
+.btn:hover,
+.btn:active{
   cursor: pointer;
   color: var(--white-color);
-  background-color: var(--blue-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-.btn:active{
-  opacity: 0.8;
+  background-color: var(--btn-background-color);
+  box-shadow: var(--btnActive-box-shadow);
 }
 .projectItem{
   width: 1600px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 .listProjects {
   list-style: none;
   margin: 20px;
-
+  border: solid 1px #EEEEEE;
 }
 .nameProject {
   font-family: var(--roboto-font-family);
   color: var(--black-color);
   font-weight: 700;
 font-size: 18px;
-line-height: 36px;
+line-height: 2em;
 letter-spacing: 0.06em;
 }
 .filterProject {
@@ -66,6 +79,6 @@ letter-spacing: 0.06em;
   color: var(--grey-color);
   font-weight: 400;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.88em;
 letter-spacing: 0.03em;
 }
