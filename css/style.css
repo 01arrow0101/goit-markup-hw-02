@@ -43,9 +43,9 @@ body {
   --grey-color: #757575;
   --white-color: #fff;
     /* -------------------------------------BORDER----------------------- */
-  --borderHeader-border: 1px solid #ececec;
-  --borderBtn-border: 1px solid #eeeeee;
-  --borderCart-border: 1px solid #eeeeee;
+  --outlineHeader-outline: 1px solid #ececec;
+  --outlineBtn-outline: 1px solid #eeeeee;
+  --outlineCart-outline: 1px solid #eeeeee;
     /* -------------------------------------BACKGROUND-COLOR----------------------- */
   --orderServiceBg-background-color: #2f303a;
   --teamBg-background-color: #f5f4fa;
@@ -80,6 +80,7 @@ body {
   /*  header */
  padding: 25px 0 25px 0;
   background-color: var(--headerBg-background-color);
+  outline: var(--outlineHeader-outline);
 }
 .logo {
   /* a */
