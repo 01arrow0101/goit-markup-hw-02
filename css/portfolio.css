@@ -7,8 +7,8 @@
                           --grey-color: #757575;
                           --white-color: #fff;
                           
-                          --borderBtn-border: 1px solid #EEEEEE;
-                          --borderCart-border: 1px solid #EEEEEE;
+                          --outlineBtn-outline: 1px solid #EEEEEE;
+                          --outlineCart-outline: 1px solid #EEEEEE;
 
                          
                 
@@ -43,6 +43,7 @@ padding: 94px 0 94px;
 .btn{
   font-family: var(--roboto-font-family);
   color: var(--black-color);
+  outline: var(--outlineBtn-outline);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.6;
@@ -75,7 +76,7 @@ margin-left: 215px;
 .listProjects {
  margin-right: 30px;
  margin-bottom: 30px;
- border: var(--borderCart-border);
+ outline: var(--outlineCart-outline);
 }
 .nameProject {
   font-family: var(--roboto-font-family);
